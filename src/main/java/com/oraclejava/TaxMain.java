@@ -21,6 +21,7 @@ public class TaxMain {
 		System.out.println("¼¼±Ý: " + tax.getTax());
 		
 		
+		
 		ctx.close();
 	}
 }
