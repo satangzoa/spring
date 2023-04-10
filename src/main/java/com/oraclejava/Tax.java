@@ -4,6 +4,7 @@ public class Tax {
 	
 	private String tax; //¼¼±Ý
 
+	
 	public String getTax() {
 		return tax;
 	}

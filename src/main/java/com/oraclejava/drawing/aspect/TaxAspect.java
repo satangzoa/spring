@@ -9,9 +9,9 @@ import org.aspectj.lang.annotation.Before;
 @Aspect
 public class TaxAspect {
 	
-	@AfterReturning(pointcut = "execution(public String getName())", returning = "tax")
+	@AfterReturning(pointcut = "execution(public String getTax())", returning = "tax")
 	public void loggingAdvice(String tax) {
-		System.out.println("세금포함 금액" + tax + " 원입니다.");
+		System.out.println("세금포함 금액: " + tax + " 원입니다.");
 	}
 	
 	
